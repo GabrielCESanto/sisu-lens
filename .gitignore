@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+# Dados gerados (bronze/silver/gold) ficam fora; a silver nunca pode ser publicada (LGPD)
+data/*
+!data/ref/
+node_modules/
+web/dist/
+.env
