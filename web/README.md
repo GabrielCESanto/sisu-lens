@@ -20,6 +20,17 @@ npm run lint      # oxlint
 
 O motor do DuckDB (~30 MB) vem do jsDelivr e fica no cache do navegador.
 
+## Publicação
+
+O site está no GitHub Pages, servido pelo branch `gh-pages`, que só contém o build e os Parquet da
+gold em `data/`. A gold não vai para o `main` e o histórico do código fica limpo. Para republicar:
+
+```bash
+npm run build
+# copie dist/ e ../data/gold/*.parquet (para data/) numa pasta com um .nojekyll vazio,
+# faça um commit único e envie com: git push -f origin gh-pages
+```
+
 ## Estrutura
 
 | Caminho | O quê |

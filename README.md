@@ -9,6 +9,8 @@ inscritos na UTFPR-CP"* (Engenharia de Computação, UTFPR – Cornélio Procóp
 Prof. Dr. Francisco Pereira Junior). O TCC estudou um câmpus; o SISU Lens abre a mesma análise para o
 SISU inteiro.
 
+**Painel no ar: [gabrielcesanto.github.io/sisu-lens](https://gabrielcesanto.github.io/sisu-lens/)**
+
 ![Página Geral: inscrições por semestre na UTFPR – Cornélio Procópio](docs/img/geral.png)
 
 ## O que dá para ver

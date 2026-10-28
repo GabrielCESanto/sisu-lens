@@ -9,6 +9,8 @@ import { fileURLToPath } from 'node:url'
 const gold = fileURLToPath(new URL('../data/gold', import.meta.url))
 
 export default defineConfig({
+  // Caminhos relativos: o build funciona em qualquer subpasta (gabrielcesanto.github.io/sisu-lens/).
+  base: './',
   plugins: [
     react(),
     {
